@@ -35,7 +35,7 @@ $(document).ready(function(){
 
 
     // Mapbox geocoder
-    $.get('https://api.mapbox.com/geocoding/v5/mapbox.places/' + searchValue + '.json?access_token=pk.eyJ1Ijoia3N1bW1lcmlsbCIsImEiOiJjajdreWRlNTgyaTl0MnFvMjRscnI1eDBvIn0.YzcP4_MZvzgm6HiMGcUsHQ&country=us&types=poi&limit=1', function(data){
+    $.get('https://api.mapbox.com/geocoding/v5/mapbox.places/' + searchValue + '.json?access_token=''&country=us&types=poi&limit=1', function(data){
         //console.log($.get('https://api.mapbox.com/geocoding/v5/mapbox.places/' + searchValue + '.json?access_token=pk.eyJ1Ijoia3N1bW1lcmlsbCIsImEiOiJjajdreWRlNTgyaTl0MnFvMjRscnI1eDBvIn0.YzcP4_MZvzgm6HiMGcUsHQ')); //logs response from Mapbox
         console.log(data.features); // logs coordinates for searchValue
 
