@@ -3,7 +3,7 @@
 var beerMappingUrl = 'http://beermapping.com/webservice/locquery/' + 'cf14ac03008445d03cf9b26ed33bc258/';
 var xhr = new XMLHttpRequest();
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoia3N1bW1lcmlsbCIsImEiOiJjajdreWRlNTgyaTl0MnFvMjRscnI1eDBvIn0.YzcP4_MZvzgm6HiMGcUsHQ';
+mapboxgl.accessToken = '';
 
 // Initializes the map and grabs the style
 var map = new mapboxgl.Map({
